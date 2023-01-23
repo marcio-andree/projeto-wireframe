@@ -17,6 +17,10 @@ header nav {
   align-items: center;
 }
 
+header .menu-mobile {
+  display: none;
+}
+
 header nav ul {
   display: flex;
   margin-right: 3.2rem;
