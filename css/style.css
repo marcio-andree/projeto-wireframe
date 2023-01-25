@@ -1,3 +1,4 @@
+
 /* style header */
 
 header{
@@ -40,6 +41,8 @@ header nav .btn-primary {
   padding: 0.9rem 3.4rem;
 
 }
+
+
 /* style s-hero */
 
 .s-hero {
@@ -152,4 +155,33 @@ flex-direction: column;
   text-align: center;
   margin-top: 0.8rem;
   line-height: 150%;
+}
+
+/* second area */
+
+.s-card-feature .second-area {
+  margin-top: 11.2rem;
+}
+
+.s-card-feature .second-area .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.4rem;
+}
+
+.s-card-feature .second-area .all-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+
+}
+
+.s-card-feature .second-area .all-images .image {
+  width: 17.6rem;
+  height: 11.2rem;
+  background-color: var(--gray-colors-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
