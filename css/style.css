@@ -1,6 +1,8 @@
 /* style header */
 
 header {
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 8.8rem;
   background-color: var(--gray-colors-800);
@@ -46,6 +48,7 @@ header nav .btn-primary {
 
 .s-hero {
   padding: 7.2rem 0rem;
+  margin-top: 8.8rem;
 }
 
 .s-hero .container {
@@ -278,6 +281,11 @@ footer main nav .item ul li a {
   font-size: 1.4rem;
   line-height: 105%;
   color: var(--white-colors-text);
+}
+
+footer main nav .item ul li a:hover{
+  color: var(--white);
+  transition: color 0.3s;
 }
 
 footer main nav .item:last-child ul li a {
